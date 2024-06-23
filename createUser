@@ -135,9 +135,9 @@ public class RealEstate {User[] users;
 
     public User login1() {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("أدخل اسم المستخدم: ");
+        System.out.print(" enter username: ");
         String username = scanner.nextLine();
-        System.out.print("أدخل كلمة المرور: ");
+        System.out.print("enter password: ");
         String password = scanner.nextLine();
 
         return Arrays.stream(users)//stream()
